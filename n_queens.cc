@@ -1,9 +1,3 @@
-/*                                                                 assign11.cc
- * PROGRAM: n_queens ( N- Queens problem )
- * PROGRAMMER: Michael Wight
- * date: 5/2/2016
- *
- *****************************************************************************/
 
   //include statements
 #include <iostream>
