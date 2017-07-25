@@ -1,8 +1,7 @@
 /*                                                                 assign11.cc
- * PROGRAM: assign11 ( N- Queens problem )
+ * PROGRAM: n_queens ( N- Queens problem )
  * PROGRAMMER: Michael Wight
- * z-id: z1644029
- * Due date: 5/2/2016
+ * date: 5/2/2016
  *
  *****************************************************************************/
 
@@ -27,7 +26,7 @@ bool solveNQueensUtil(vector< vector<bool> > & board, int);
 bool isSafe(vector< vector<bool> >, int, int);
 void printBoard(vector< vector<bool> >);
 
-  ////// main() /////
+  //////                                                                  main()
 int main()
 {
 	bool notDone = false;
@@ -59,8 +58,9 @@ int main()
 	return 0;
 }
 
-    ////// function definitions ///////
 
+
+    ////// function definitions ///////
 /*								initBoard()
    Objective:
 	This function takes a vector of vector of bools. The function initializes
